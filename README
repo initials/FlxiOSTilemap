@@ -3,5 +3,11 @@ FlxTilemap
 
 It's actually nothing like the Flash version.
 
+The thing to note is that it builds a FlxTileBlock for each time it finds a non white pixel. The width is determined by the red value and the blue value, the green value can be used as an arbitrary value.
+
+Pure green pixels are just for placeholders.
+
+
+
 for help email initials@initialscommand.com
 
